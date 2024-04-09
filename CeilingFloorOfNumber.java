@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class CeilingFloorOfNumber {
     public static void main(String[] args) {
-        int[] arr = {10,14,65,77,90,95};
-        int target = 19;
+        int[] arr = {17,17,17,18,20};
+        int target = 20;
         System.out.println(Arrays.toString(ceiling_floor(arr, target)));
     }
     static int[] ceiling_floor(int[] arr, int target){
